@@ -4,7 +4,7 @@
 
 ![](img_banner_title.png)
 
-# 1.0. Business Problem.
+# 1. Business Problem.
 
 Cardio Catch Diseases is a company specialized in detecting heart disease in the early stages. Its business model lies in offering an early diagnosis of cardiovascular disease for a certain price.
 
@@ -19,7 +19,7 @@ The price of the diagnosis, paid by the client, varies according to the precisio
 
 Thus, we see that **different values in the exam precision**, given by the team of specialists, make the company either have a profitable operation, revenue greater than the cost, or an operation with a loss, revenue less than the cost. This instability of the diagnosis makes the company to have an **unpredictable cashflow**.
 
-# 2.0. Business Assumptions.
+# 2. Business Assumptions.
 
 The assumptions about the business problem is as follows:
 
@@ -35,7 +35,7 @@ PS 1: All the references are stated at the end of this README.
 PS 2: You can find useful information at **section 1** of my [notebook](#).
 
 
-# 3.0. Solution Strategy
+# 3. Solution Strategy
 
 My strategy to solve this challenge was:
 
@@ -59,7 +59,7 @@ My strategy to solve this challenge was:
 
 **Step 10. Deploy Modelo to Production:** Publish the model in a cloud environment so that other people or services can use the results to improve the business decision.
 
-# 4.0. Top 3 Data Insights
+# 4. Top 3 Data Insights
 
 **Hypothesis 01:** The cases of heart diseases does not significantly depend on the height.
 
@@ -74,10 +74,10 @@ My strategy to solve this challenge was:
 **False.** As observed, the great majority of cases are among people who doesn't intake alcohol.
 
 
-# 5.0. Machine Learning Model Applied
+# 5. Machine Learning Model Applied
 Tests were made using different algorithms.
 
-# 6.0. Machine Learning Modelo Performance
+# 6. Machine Learning Modelo Performance
 The chosen algorithm was the **CatBoost Classifier**. In addition, I made a performance calibration on it.
 
 #### Precision, Recall, ROC AUC and other metrics
@@ -100,7 +100,7 @@ The summary below shows the metrics comparison after running a cross validation 
 Although the **Tuned HP + Calibrated** model has a slightly lower f1-score and recall, it has a higher precision which is fair enough for our project needs. In addition, for being calibrated, in the future predictions it will be more stable and confident which is good for both business and patients.
 
 
-# 7.0. Business Performance
+# 7. Business Results
 
 Let's recap the pricing model. The price of the diagnosis, paid by the client, varies according to the precision achieved by the team of specialists.
 
@@ -121,11 +121,11 @@ Our full original data set contains the records of 70,000 patients. Suppose we w
 This means that having a portfolio of 70k patients that would go through the clinical procedure to check whether they have or not a cardiovascular disease, in the **worst business scenario** the portfolio would generate a profit of **\$171.7 million** and in the **best scenario \$186.2 million**, in contrast to today's procedure that at its best has an accuracy of 65% and would generate a total of \$105 million, that's **a difference of \$81.2 million!**
 
 
-# 8.0. Conclusions
+# 8. Conclusions
 
-# 9.0. Lessons Learned
+# 9. Lessons Learned
 
-# 10.0. Next Steps to Improve
+# 10. Next Steps to Improve
 
 **1.** **Develop an app** that intakes a portfolio of patients and assigns for each patient its respective probability of presenting a cardiovascular disease.
 
