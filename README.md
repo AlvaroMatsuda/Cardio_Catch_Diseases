@@ -2,7 +2,7 @@
 
 ## Predicting cardiovascular diseases
 
-![](img/banner_title.png)
+![](banner_title.png)
 
 # 1.0. Business Problem.
 
@@ -61,13 +61,16 @@ My strategy to solve this challenge was:
 
 # 4.0. Top 3 Data Insights
 
-Hypothesis 01: The cases of heart diseases does not significantly depend on the height.
+**Hypothesis 01:** The cases of heart diseases does not significantly depend on the height.
+
 **False.** As observed, up to ~165 cm there are significantly more cases of heart diseases. Then, above this height, there are fewer cases.
 
-Hypothesis 02: The are more cases of heart diseases for people who smokes than for people who does not.
+**Hypothesis 02:** The are more cases of heart diseases for people who smokes than for people who does not.
+
 **False.** As observed, the great majority of cases are among people who doesn't smoke.
 
-Hypothesis 03: The are more cases of heart diseases for people who intakes alcohol than for people who does not.
+**Hypothesis 03:** The are more cases of heart diseases for people who intakes alcohol than for people who does not.
+
 **False.** As observed, the great majority of cases are among people who doesn't intake alcohol.
 
 
