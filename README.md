@@ -2,7 +2,7 @@
 
 ## Predicting cardiovascular diseases
 
-![](banner_title.png)
+![](img_banner_title.png)
 
 # 1.0. Business Problem.
 
