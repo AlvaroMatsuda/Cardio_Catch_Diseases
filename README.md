@@ -114,6 +114,12 @@ The Logistic Regression was chosen because it has a better balance of Precision 
   - So the price vary between BRL 2.000,00 and BRL 2.500,00
   - This makes the diagnosis more profitable where in the worst case, the company would profit at least BRL 1.000,00 (precision of < 75%)
 
+Scenarios | Current Precision | Profit | Model Precision | Profit
+--- | --- | --- | --- | ---
+Average | 60.0 | 0.0 | 75.19 | 1.500,0
+Worst Case | 55.0 | -500,0 | 74.25 | 1.000,0
+Best Case | 65.0 | 500.0 | 76.13 | 1.500,0
+
 # 7. Conclusions
 
 
