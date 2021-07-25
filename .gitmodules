@@ -1,6 +1,0 @@
-[submodule "streamlit_app"]
-	path = streamlit_app
-	url = https://git.heroku.com/cardio-catch-app.git
-[submodule "webapp_heroku"]
-	path = webapp_heroku
-	url = https://git.heroku.com/cardio-catch-prediction.git
