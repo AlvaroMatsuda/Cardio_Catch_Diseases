@@ -121,8 +121,13 @@ Worst Case | 55.0 | -500,0 | 74.25 | 1.000,0
 Best Case | 65.0 | 500.0 | 76.13 | 1.500,0
 
 # 7. Conclusions
-
+In this project we created a classification model that has a precision of 74.25% and 66.13% Recall. With it, the company would profit in average BRL 1.500,00 per diagnoses, opposed to BRL 0,00 with the current situation. 
 
 # 8. Lessons Learned
+- There are several metrics to evaluate a binary classification model, each reports different information. In this project I learned about the confusion matrix and type I and type II errors , which are false positive (FP) and false negative (FN) respectively. 
+- With the confusion matrix we can calculate Accuracy, Precision and Recall.
+  - Accuracy: Is the number of correct predictions made by the model. Or we could call it as the global rate of right predictions.
+  - Precision: 
+  - Recall: 
 
 # 9. Next Steps to Improve
