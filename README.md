@@ -121,7 +121,13 @@ Worst Case | 55.0 | -500,0 | 74.25 | 1.000,0
 Best Case | 65.0 | 500.0 | 76.13 | 1.500,0
 
 # 7. Conclusions
-In this project we created a classification model that has a precision of 74.25% and 66.13% Recall. With it, the company would profit in average BRL 1.500,00 per diagnoses, opposed to BRL 0,00 with the current situation. 
+This project was a binary classification problem where the target variable is the diagnose of cardiovascular disease. The dataset to train the model is balanced
+
+In this project we discovered some interesting informations about the sample that the dataset represents through EDA, such as patients that smokes has lower chance of having cardiovascular disease and patients that drinks alcohol also has lower chance of having cardiovascular disease. But we have to be careful about those affirmations, as it just represents the sample of patients of the dataset.
+
+We also created a classification model that has a precision of 74.25% and 66.13% Recall. With it, the company would profit in average BRL 1.500,00 per diagnoses, opposed to BRL 0,00 with the current situation.
+
+And then I deployed the model to production through a Streamlit App that can be accessed by the specialist of the company and help them diagnose whether the patients 
 
 # 8. Lessons Learned
 - There are several metrics to evaluate a binary classification model, each reports different information. In this project I learned about the confusion matrix and type I and type II errors , which are false positive (FP) and false negative (FN) respectively. 
