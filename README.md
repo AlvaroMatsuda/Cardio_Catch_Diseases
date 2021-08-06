@@ -138,3 +138,8 @@ And then I deployed the model to production through a Streamlit App that can be 
 
 # 9. Next Steps to Improve
 One thing that I could do is an experiment on discretizing continuous variables and see the impact on the models.
+Improve Streamlit app to force to input all the information and in case of missing one of the inputs to send an error message, telling to fill all informations needed.
+
+# 10. Streamlit App
+Link to Streamlit App:
+https://cardio-catch-app.herokuapp.com/
