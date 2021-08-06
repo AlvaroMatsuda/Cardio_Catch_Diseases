@@ -130,10 +130,11 @@ We also created a classification model that has a precision of 74.25% and 66.13%
 And then I deployed the model to production through a Streamlit App that can be accessed by the specialist of the company and help them diagnose whether the patients 
 
 # 8. Lessons Learned
-- There are several metrics to evaluate a binary classification model, each reports different information. In this project I learned about the confusion matrix and type I and type II errors , which are false positive (FP) and false negative (FN) respectively. 
+- There are several metrics to evaluate a binary classification model, each reports different information. In this project I learned about confusion matrix and type I and type II errors , which are false positive (FP) and false negative (FN) respectively. 
 - With the confusion matrix we can calculate Accuracy, Precision and Recall.
   - Accuracy: Is the number of correct predictions made by the model. Or we could call it as the global rate of right predictions.
-  - Precision: 
-  - Recall: 
+  - Precision: Is the rate of true positive and total positive predicted by the model. This metric is good when False Positive impacts the business problem (e.g. spam detection, directed marketing, etc). In other words, of all positive predicted, how many is true.
+  - Recall: Is the rate of true positive and total real positive. In other words, of all real positive, how many the model predicted right. It is used mostly when False Negative impacts the business problem (e.g. disease detecting, fraudulent transactions, etc)
 
 # 9. Next Steps to Improve
+One thing that I could do is an experiment on discretizing continuous variables and see the impact on the models.
